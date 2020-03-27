@@ -21,3 +21,4 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GLUMLI_TOKEN }}
         with:
           assignees: Glumli
+          filename: .github/ISSUE_TEMPLATE.md 
