@@ -16,6 +16,8 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - run: 'echo ${ls}'
+      - name: Checkout
+        uses: actions/checkout@master
       - name: Create an Issue
         uses: JasonEtco/create-an-issue@v2.3.1
         env:
