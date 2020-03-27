@@ -1,6 +1,6 @@
-# New release in XX
-
-### TODOS
-- [ ] TODO1 
-- [ ] TODO2
-- [ ] Celebrate with a cookie
+---
+title: Someone just pushed
+assignees: JasonEtco, matchai
+labels: release
+---
+Someone just released, oh no! Here's who did it: {{ payload.sender.login }}
